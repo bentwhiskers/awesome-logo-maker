@@ -1,9 +1,9 @@
 // TODO: include packages needed
 // inquirer, jest, shape classes,
 
-const fs = require('fs');
-const inquirer = require('inquirer');
-const generateSvg = require('./lib/generateSvg');
+import { writeFile } from 'fs';
+import { prompt } from 'inquirer';
+import generateSvg from './lib/generateSvg.js';
 
 
 // TODO: create an array of questions for user input
@@ -35,10 +35,10 @@ const questions = [
 // must also output text "Generated logo.svg" to the command line
 // logo.svg is a 300x200 pixel img
 
-function writeToFile(fileName, data) {
+function writeToFile(data) {
     const fileName = './examples/logo.svg';
 
-    fs.writeFile(fileName, data, function (err) {
+    writeFile(fileName, data, function (err) {
         err ? console.log(err) : console.log('Generated ' + fileName)
     })
 };
