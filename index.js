@@ -13,7 +13,7 @@ const questions = require('./lib/questions.js');
 function writeToFile(data) {
     const fileName = './examples/logo.svg';
 
-    writeFile(fileName, data, function (err) {
+    fs.writeFile(fileName, data, function (err) {
         err ? console.log(err) : console.log('Generated ' + fileName)
     })
 };
