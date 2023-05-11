@@ -1,10 +1,10 @@
 // TODO: include packages needed
 // inquirer, jest, shape classes,
 
-import inquirer from 'inquirer';
-import { writeFile } from 'fs';
-import generateSvg from './lib/generateSvg.js';
-import questions from './lib/questions.js';
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generateSvg = require('./lib/generateSvg.js');
+const questions = require('./lib/questions.js');
 
 // TODO: create a function to write an SVG file
 // must also output text "Generated logo.svg" to the command line
