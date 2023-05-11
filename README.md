@@ -1,7 +1,8 @@
 # awesome-logo-maker
 
 ## Description:
-This app generates a logo based on user input, and saves it as an SVG file. It prompts the user to select a color and a shape, provide the text for the logo, and then genereates the information and saves it to a .svg file. See Usage for a demo video of the working app.
+This app generates a SVG logo based on user input, and saves it as an SVG file. It prompts the user to select a shape, choose a type for the shape color and text color, enter a color keyword or hexidecimal color, provide the text for the logo, and then generates the information and saves it to a .svg file. See Usage for a demo video of the working app.
+This app demostrates the ability to use Object Oriented Programming.
 
 ## Table of Contents
 1. [Description](#description)
@@ -13,6 +14,7 @@ This app generates a logo based on user input, and saves it as an SVG file. It p
 
 
 ## Usage
+To use: must have a code editor installed. Must have node.js and Inquirer installed. Run node on index.js file in the terminal. 
 
 
 ## Credits
