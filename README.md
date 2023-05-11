@@ -15,11 +15,17 @@ This app demostrates the ability to use Object Oriented Programming.
 
 ## Usage
 To use: must have a code editor installed. Must have node.js and Inquirer installed. Run node on index.js file in the terminal. 
+To see a demo video, visit: 
+
+<img width="428" alt="Screenshot 2023-05-11 at 6 03 50 PM" src="https://github.com/bentwhiskers/awesome-logo-maker/assets/126021339/5f08dbca-b1d3-423a-b5e4-d08a928ccff0">
 
 
 ## Credits
+Code from https://github.com/elizabetholsavsky/SVG-logo-maker was used for questions.js file. 
+Eric Sayer (instructor) (github: https://github.com/sayex) - helped to install correct Inquirer package. 
 
 ## Tests
+Each shape class (Circle, Square, and Triangle) is tested for a render() method that returns a string for the corresponfing SVG file matching color and text requests. Type "npm run test" in the terminal and Jest will run all three tests.
 
 ## License
 MIT License - see https://opensource.org/licenses/ to get more information about this license.
