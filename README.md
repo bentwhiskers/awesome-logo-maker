@@ -15,7 +15,7 @@ This app demostrates the ability to use Object Oriented Programming.
 
 ## Usage
 To use: must have a code editor installed. Must have node.js and Inquirer installed. Run node on index.js file in the terminal. 
-To see a demo video, visit: 
+To see a demo video, visit: https://drive.google.com/file/d/10jXG4qmguqzA2FShevReQEH8unDjkHm6/view
 
 <img width="428" alt="Screenshot 2023-05-11 at 6 03 50 PM" src="https://github.com/bentwhiskers/awesome-logo-maker/assets/126021339/5f08dbca-b1d3-423a-b5e4-d08a928ccff0">
 
