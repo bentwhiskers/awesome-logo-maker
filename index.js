@@ -1,35 +1,10 @@
 // TODO: include packages needed
 // inquirer, jest, shape classes,
 
+import inquirer from 'inquirer';
 import { writeFile } from 'fs';
-import { prompt } from 'inquirer';
 import generateSvg from './lib/generateSvg.js';
-
-
-// TODO: create an array of questions for user input
-const questions = [
-    {
-        type: 'input',
-        name: 'text',
-        message: 'Enter up to three characters for your logo text:'
-    },
-    {
-        type: 'input',
-        name: 'textColor',
-        message: 'Enter a color name or a hexidecimal color number for your text:'
-    },
-    {
-        type: 'list',
-        name: 'shape',
-        message: 'Pick a shape for your logo:',
-        choices: ['Circle', 'Square', 'Triangle']
-    },
-    {
-        type: 'input',
-        name: 'shapeColor',
-        message: 'Enter a color name or a hexidecimal color number for your shape:'
-    }
-];
+import questions from './lib/questions.js';
 
 // TODO: create a function to write an SVG file
 // must also output text "Generated logo.svg" to the command line
